@@ -1,0 +1,80 @@
+body{
+	font-family: Montserrat-regular;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+}
+
+@font-face{
+	 font-family: Montserrat-regular;
+	 src: url(font/Montserrat-Regular.ttf);
+ }
+ 
+@font-face{
+	 font-family: Montserrat-italic;
+	 src: url(font/Montserrat-Italic.ttf);
+ }
+ 
+@font-face{
+	 font-family: Marlino;
+	 src: url(font/MarlinoRegularPersonalUse-3zgr8.otf);
+ }
+ 
+ 
+ 
+* {
+    box-sizing: border-box;
+}
+
+.grid-init-head {
+ width: 1058px; /* ширина контейнера */
+ max-height: 34px;
+ margin: auto; /* центрирование контейнера на странице */
+ padding: 0px; /* внутренние отступы */
+ margin-top: 23px;
+ margin-left: 390px;
+ position: absolute;
+}
+
+.grid-head {
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr 2fr 1fr;
+	
+}
+
+.box-init-head {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-family: Montserrat-regular;
+ font-size: 20px;
+ color: white;
+}
+
+
+button{
+	border: 1px solid #FFFFFF;
+	background: none;
+	font-size: 20px;
+	padding: 5px 17px;
+}
+
+.yellow{
+	border: 1px solid #FFBC11;
+	font-family: Montserrat-regular;
+	font-size: 20px;
+	color: #FFBC11;
+}
+
+.first{
+	width: 1200px;	/* ширина контейнера */
+    height: 600px;
+    margin: auto; /* центрирование контейнера на странице */
+    padding: 0px; /* внутренние отступы */
+    margin-top: 80px;
+    margin-left: 390px;
+    position: absolute;
+	display: flex;
+	justify-content: space-between;
+	
+}

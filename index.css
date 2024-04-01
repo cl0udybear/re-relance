@@ -1,0 +1,295 @@
+
+body{
+	font-family: Montserrat-regular;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+	max-width: 1200px;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+@font-face{
+	 font-family: Montserrat-regular;
+	 src: url(font/Montserrat-Regular.ttf);
+ }
+ 
+@font-face{
+	 font-family: Montserrat-italic;
+	 src: url(font/Montserrat-Italic.ttf);
+ }
+ 
+@font-face{
+	 font-family: Marlino;
+	 src: url(font/MARLINOREGULARPERSONALUSE-3ZGR8.OTF);
+ }
+ 
+.grid-init-head{
+
+	margin-top: 23px;
+	margin-bottom: 23px;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	
+}
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	gap: 37px;
+}
+
+
+button{
+	font-family: Montserrat-regular;
+	font-size: 20px;
+	color: white;
+	border: 1px solid #FFFFFF;
+	background: none;
+	font-size: 20px;
+	padding: 5px 17px;
+}
+
+.yellow{
+	border: 1px solid #FFBC11;
+	font-family: Montserrat-regular;
+	font-size: 20px;
+	color: #FFBC11;
+}
+
+
+.first{
+	height: 600px;
+	background: url(img/back.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 1200px 600px;
+}
+
+.but{
+	margin-top: 390px;
+	margin-left: 150px;
+}
+
+button:hover{
+	color: black;
+	background-color: white;
+}
+
+.second{
+
+	margin-top: 123px;
+	margin-bottom: 236px;
+	display: flex;
+	flex-direction: column;
+}
+
+h1{
+	font-family: Marlino;
+	font-size: 67px;
+	color: #FFBC11;
+	font-weight: 400;
+}
+
+
+.text{
+	font-family: Montserrat-regular;
+	font-size: 20px;
+	color: white;
+	line-height: 26px;
+}
+
+.ye{
+	font-family: Montserrat-italic;
+	color: #FFBC11;
+}
+
+.third{
+    max-width: 1160px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #FFFFFF;
+	background: none;
+	padding: 9px 0px 30px 56px;
+}
+
+.thirdy{
+	max-width: 700px;
+	
+	display: flex;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	flex-direction: column;
+	border: 1px solid #FFFFFF;
+	background: none;
+	padding: 30px 50px 0px 50px;
+}
+
+.thirdier{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.pic1{
+	max-width: 456px;
+	margin-top: -570px;
+	margin-left: 763px;
+}
+
+.pic2{
+	max-width: 456px;
+}
+
+.pic3{
+	max-width: 456px;
+	margin-top: -570px;
+	margin-left: 763px;
+}
+
+
+.list{
+	line-height: 52px;
+	margin-top: -60px;
+}
+
+li{
+    list-style-type: none; /* Убираем маркеры у списка */
+	margin-left: -34px;
+}
+   
+li:before {
+    content: "–"; /* Добавляем в качестве маркера символ */
+}
+
+.go{
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+	margin-top: 25px;
+}
+
+
+.forth{
+	max-width: 1200px;
+	margin-top: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photos1{
+	max-width: 1050px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photos2{
+	max-width: 1050px;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fifth{
+	max-width: 1200px;
+    margin-top: 130px;
+	background-image: url(img/back2.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 630px;
+	
+}
+
+.ramka{
+	max-width: 600px;
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	border: 1px solid #FFFFFF;
+	background: none;
+	padding: 50px 50px 70px 50px;
+}
+
+#forma{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+input {
+   border: none;
+   background: none;
+   border-bottom: 1px solid white;   
+   outline: none; 
+   height: 50px;
+   width: 350px;
+   color: white; 
+   font-size: 20px; 
+   font-family: Montserrat-regular;
+}
+
+select{
+   border: 1px solid white;
+   background: none; 
+   outline: none; 
+   height: 50px;
+   width: 350px;
+   color: white; 
+   font-size: 20px; 
+   font-family: Montserrat-regular;
+}
+
+option{
+	background: black; 
+	color: white; 
+    font-size: 20px; 
+    font-family: Montserrat-regular;
+}
+
+.maping{
+	max-width: 1200px;
+    display: flex;
+	flex-direction: row;
+	gap: 152px;
+	margin-top: 100px;
+}
+
+#map {
+  
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%) contrast(90%) brightness(90%);
+
+}
+
+
+.contacts{
+	max-width: 300px;
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+	gap: 102px;
+}
+
+.adres{
+	display: flex;
+	flex-direction: column;
+	gap: 38px;
+}
+
+.sety{
+	display: flex;
+	flex-direction: row;
+	gap: 54px;
+}
+
+footer{
+	max-width: 1200px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+}
